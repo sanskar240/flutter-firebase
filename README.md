@@ -3,5 +3,9 @@ User Authentication done with Firebase.
 Integrated cloud firestore to store real time data.
 Added CRUD functions too
 
-
+API's used:
+https://pub.dev/packages/cloud_firestore,
+https://pub.dev/packages/firebase_auth,
+https://pub.dev/packages/google_sign_in,
+https://pub.dev/packages/firebase_core
 
