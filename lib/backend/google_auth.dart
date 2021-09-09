@@ -9,8 +9,7 @@ GoogleSignIn googleSignIn = GoogleSignIn();
 final FirebaseAuth auth = FirebaseAuth.instance;
 CollectionReference users = FirebaseFirestore.instance.collection('users');
 
-// changing return type to void
-// as bool was not needed here
+//Sign In Use Case
 void signInWithGoogle(BuildContext context) async {
   try {
     final GoogleSignInAccount googleSignInAccount = await googleSignIn.signIn();
