@@ -46,7 +46,7 @@ void signInWithGoogle(BuildContext context) async {
           );
         } else {
           // new user
-
+          //Firestore instance
           users.doc(user.uid).set(userData);
 
           Navigator.of(context).pushReplacement(
